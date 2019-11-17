@@ -1,0 +1,328 @@
+html, body {
+    background: #fafafa;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#auth-container {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+}
+
+#main-navbar {
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.post-container {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.nav-icon a {
+    color: #262626;
+    font-size: 1.3em;
+    display: block;
+    margin-top: .2em;
+    margin-left: 1.2em;
+    font-weight: 100;
+}
+.nav-icon a:hover {
+    color: #1d5e72;;
+}
+#profile-box {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.0975);
+    border-radius: 1px;
+    margin-top: 6em;
+}
+
+#user-posts #post-thumb {
+    background: #fff;
+}
+
+#SECTION_1 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: flex;
+    height: 56px;
+    left: 0px;
+    min-height: 56px;
+    min-width: auto;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    top: 0px;
+    column-rule-color: rgb(153, 153, 153);
+    align-items: stretch;
+    justify-content: center;
+    perspective-origin: 300px 28px;
+    transform-origin: 300px 28px;
+    caret-color: rgb(153, 153, 153);
+    border-top: 1px solid rgb(210, 210, 210);
+    border-right: 0px solid rgb(0, 0, 0);
+    border-bottom: 0px solid rgb(210, 210, 210);
+    border-left: 0px solid rgb(0, 0, 0);
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 4px 0px 0px;
+    outline: rgb(153, 153, 153) none 0px;
+    padding: 0px 16px;
+}/*#SECTION_1*/
+
+#SECTION_1:after {
+    color: rgb(153, 153, 153);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(153, 153, 153);
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#SECTION_1:after*/
+
+#SECTION_1:before {
+    color: rgb(153, 153, 153);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(153, 153, 153);
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#SECTION_1:before*/
+
+#DIV_2 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+    display: flex;
+    height: 18px;
+    left: 0px;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    top: 0px;
+    column-rule-color: rgb(153, 153, 153);
+    align-items: stretch;
+    perspective-origin: 284px 9px;
+    transform-origin: 284px 9px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px solid rgb(0, 0, 0);
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#DIV_2*/
+
+#DIV_2:after {
+    color: rgb(153, 153, 153);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(153, 153, 153);
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#DIV_2:after*/
+
+#DIV_2:before {
+    color: rgb(153, 153, 153);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(153, 153, 153);
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#DIV_2:before*/
+
+#FORM_3 {
+    bottom: 0px;
+    color: rgb(153, 153, 153);
+    display: flex;
+    height: 18px;
+    left: 0px;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    top: 0px;
+    column-rule-color: rgb(153, 153, 153);
+    align-items: center;
+    perspective-origin: 284px 9px;
+    transform-origin: 284px 9px;
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    flex: 1 1 auto;
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0px;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#FORM_3*/
+
+#FORM_3:after {
+    color: rgb(153, 153, 153);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(153, 153, 153);
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#FORM_3:after*/
+
+#FORM_3:before {
+    color: rgb(153, 153, 153);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(153, 153, 153);
+    caret-color: rgb(153, 153, 153);
+    border: 0px none rgb(153, 153, 153);
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(153, 153, 153) none 0px;
+}/*#FORM_3:before*/
+
+#TEXTAREA_4 {
+    background-position: 0px 0px;
+    box-sizing: content-box;
+    color: rgb(38, 38, 38);
+    display: flex;
+    height: 18px;
+    max-height: 80px;
+    min-height: auto;
+    min-width: auto;
+    resize: none;
+    text-decoration: none solid rgb(38, 38, 38);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(38, 38, 38);
+    perspective-origin: 256.5px 9px;
+    transform-origin: 256.5px 9px;
+    caret-color: rgb(38, 38, 38);
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(38, 38, 38);
+    flex: 1 1 auto;
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(38, 38, 38) none 0px;
+    padding: 0px;
+}/*#TEXTAREA_4*/
+
+#TEXTAREA_4:after {
+    color: rgb(38, 38, 38);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(38, 38, 38);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(38, 38, 38);
+    caret-color: rgb(38, 38, 38);
+    border: 0px none rgb(38, 38, 38);
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(38, 38, 38) none 0px;
+}/*#TEXTAREA_4:after*/
+
+#TEXTAREA_4:before {
+    color: rgb(38, 38, 38);
+    min-height: auto;
+    min-width: auto;
+    text-decoration: none solid rgb(38, 38, 38);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(38, 38, 38);
+    caret-color: rgb(38, 38, 38);
+    border: 0px none rgb(38, 38, 38);
+    font: normal normal 400 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(38, 38, 38) none 0px;
+}/*#TEXTAREA_4:before*/
+
+#BUTTON_5 {
+    background-position: 0px 0px;
+    bottom: 0px;
+    color: rgb(56, 151, 240);
+    cursor: pointer;
+    display: block;
+    height: 18px;
+    left: 0px;
+    min-height: auto;
+    min-width: auto;
+    opacity: 0.3;
+    pointer-events: none;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(56, 151, 240);
+    text-size-adjust: 100%;
+    text-overflow: ellipsis;
+    top: 0px;
+    width: 55px;
+    column-rule-color: rgb(56, 151, 240);
+    perspective-origin: 27.5px 9px;
+    transform-origin: 27.5px 9px;
+    user-select: none;
+    caret-color: rgb(56, 151, 240);
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(56, 151, 240);
+    font: normal normal 600 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(56, 151, 240) none 0px;
+    padding: 0px;
+}/*#BUTTON_5*/
+
+#BUTTON_5:after {
+    color: rgb(56, 151, 240);
+    cursor: pointer;
+    min-height: auto;
+    min-width: auto;
+    pointer-events: none;
+    text-decoration: none solid rgb(56, 151, 240);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(56, 151, 240);
+    user-select: none;
+    caret-color: rgb(56, 151, 240);
+    border: 0px none rgb(56, 151, 240);
+    font: normal normal 600 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(56, 151, 240) none 0px;
+}/*#BUTTON_5:after*/
+
+#BUTTON_5:before {
+    color: rgb(56, 151, 240);
+    cursor: pointer;
+    min-height: auto;
+    min-width: auto;
+    pointer-events: none;
+    text-decoration: none solid rgb(56, 151, 240);
+    text-size-adjust: 100%;
+    column-rule-color: rgb(56, 151, 240);
+    user-select: none;
+    caret-color: rgb(56, 151, 240);
+    border: 0px none rgb(56, 151, 240);
+    font: normal normal 600 normal 14px / 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    outline: rgb(56, 151, 240) none 0px;
+}/*#BUTTON_5:before*/
+
+
+.post-card {
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+

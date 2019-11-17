@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Djangogram</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/static/css/main.css" />
+
+</head>
+<body class="h-100">
+
+	<br><br><br>
+
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-5 col-lg-5 pt-2 pl-5 pr-5 pb-5" id="auth-container">
+            	<br>
+                <img src="/static/img/instagram.png" class="img-fluid rounded mx-auto d-block pb-4" style="max-width: 40%;">
+                <img src="/static/img/Djangogram.png" class="img-fluid rounded mx-auto d-block pb-4" style="max-width: 40%;">
+
+                <!-- <form method="POST" action="">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="tewK92xfTGJDLDqW5YWXnga8Ndqu3Ssfo0kbqHFjTNbzqbYr83duTxyFCTZZfKC0">
+
+                    <p class="text-center" style="color:#9C9C9C"><b>Regístrate para ver fotos y videos de tus amigos.</b></p>
+                	<button class="btn btn-primary btn-block mt-5" type="submit"><i class="fab fa-facebook-square"></i> Iniciar sesi&oacute;n con Facebook</button></br>
+
+                	<p class="text-center" style="color:#9C9C9C">o</p>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="N&uacute;mero de celular o correo electr&oacute;nico" name="username" />
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Nombre completo" name="username" />
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" placeholder="Nombre de usuario" name="username" />
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="password" placeholder="Contraseña" name="password" />
+                    </div>
+                    <button class="btn btn-primary btn-block mt-5" type="submit">Registrarse</button>
+
+                    <p class="mt-4 text-center" style="color:#9C9C9C"> Al registrarte, aceptas nuestras Condiciones, la Política de datos y la Política de cookies.</p>
+
+                    <p class="mt-4 text-center"> ¿Tienes una cuenta? <a href="/users/login">Iniciar sesi&oacute;n.</a></p>
+                </form>
+ -->
+            <form action="{% url 'signup' %}" method="POST">
+        {% csrf_token %}
+
+        {{ form.as_p }}
+        <!--<div class="form-group">
+            <input type="text" class="form-control" required="true" placeholder="Username" name="username" />
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" required="true" placeholder="Password" name="password" />
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" required="true" placeholder="Password Confirmation" name="password_confirmation" />
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" required="true" placeholder="First Name" name="first_name" />
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" required="true" placeholder="Last Name" name="last_name" />
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" required="true" placeholder="Email" name="email" />
+        </div>-->
+        <button class="btn btn-primary btn-block mt-5">
+            Registrarse
+        </button>
+
+    </form>
+            </div>
+        </div><br><br>
+    </div>
+</body>
+</html>
